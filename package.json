@@ -1,0 +1,20 @@
+{
+  "name": "momo-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "momo-sandbox": "node index.js",
+    "start": "node index.js",
+    "test": "node test/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "commander": "^11.0.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
