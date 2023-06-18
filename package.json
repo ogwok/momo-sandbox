@@ -1,16 +1,29 @@
 {
   "name": "momo-sandbox",
   "version": "1.0.0",
-  "description": "",
+  "description": "MomoSandbox is an npm package that provides a convenient way to generate user credentials for the MTN Mobile Money API sandbox environment. It automates the process of creating an API user, confirming the user's existence, and generating an API key.",
   "main": "index.js",
   "scripts": {
     "momo-sandbox": "node index.js",
     "start": "node index.js",
     "test": "node test/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "bin": {
+    "momo-sandbox": "./index.js"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogwok/momo-sandbox.git"
+  },
+  "keywords": [
+  "momo-api",
+  "mtn-momo",
+  "payments",
+  "momo-sandbox"
+  ],
+  "author": "ogwok",
   "license": "ISC",
+  "homepage": "https://github.com/ogwok/momo-sandbox.git#readme",
   "dependencies": {
     "axios": "^1.4.0",
     "commander": "^11.0.0",
